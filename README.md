@@ -8,14 +8,14 @@ This project is about creating a program that converts passwords hashed in MD5 t
 This is used to migrate the password format of an application from MD5 to SHA256, increasing security without requiring all users to re-enter the password.
 
 ## Prerequisites
-- `rockyou.txt` wordlist
-- `passwords.txt` md5 hashes list
+- `rockyou.txt` wordlist ([download](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt "download"))
+- `passwords.txt` md5 hashes list, example is provided
 
 ## Usage
 1. Run `python ./password_conversion.py`
 2. Wait until `plain.txt` is created
 3. Wait until `new_passwords.txt` is created
-4. Be patient pls :)
+4. Be patient pls, it may take some minutes :)
 
 ## Lessons
 - MD5 hashes
