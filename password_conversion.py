@@ -11,7 +11,7 @@ import hashlib
 ############ Setup variables ############
 
 WORDLIST_PATH = "rockyou.txt"
-HASHES_FILE = "passwords.txt"
+HASHES_FILE = "passwords_example.txt"
 
 #########################################
 
