@@ -1,11 +1,13 @@
-# Password Conversion!
+# Password Conversion
 
 ## Description
-Small program that bruteforces MD5 hashes of passwords, getting their plaintext, and hashes them back to SHA256. Cybersecurity project.
+This project is about creating a program that converts passwords hashed in MD5 to plaintext, and then hashes them back to SHA256. To do this, it uses a wordlist to brute-force the MD5 hashes.
+
+This is used to migrate the password format of an application from MD5 to SHA256, increasing security without requiring all users to re-enter the password.
 
 ## Prerequisites
 - `rockyou.txt` wordlist
-- `passwords.txt` passwords hashed in md5
+- `passwords.txt` md5 hashes list
 
 ## Usage
 1. Run `python ./password_conversion.py`
@@ -14,7 +16,9 @@ Small program that bruteforces MD5 hashes of passwords, getting their plaintext,
 4. Be patient pls :)
 
 ## Lessons
-- 
+- MD5 hashes
+- SHA256 hashes
+- Brute force
 
 ## Resources
 - [hashlib](https://docs.python.org/3/library/hashlib.html "hashlib")
