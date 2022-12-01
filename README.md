@@ -11,7 +11,7 @@ This is used to migrate the password format of an application from MD5 to SHA256
 
 ## Prerequisites
 - `rockyou.txt` wordlist ([download](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt "download"))
-- `passwords.txt` md5 hashes list, example is provided
+- `passwords.txt` md5 hashes list, `passwords_example.txt` is provided
 
 ## Usage
 1. Run `python ./password_conversion.py`
